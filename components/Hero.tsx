@@ -302,7 +302,7 @@ export default function Hero() {
             </span>
           </h1>
 
-          <div className="flex items-end gap-6 mt-1">
+          <div className="flex flex-col md:flex-row items-end gap-6 mt-1">
             <h1 className="name-wrap font-display text-[clamp(3rem,8vw,7rem)] leading-[0.95] tracking-tight text-primary select-none">
               {splitLetters("Oghene", 550)}
               <span className="glitch-a" aria-hidden>
