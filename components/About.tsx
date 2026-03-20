@@ -303,15 +303,15 @@ export default function About() {
               <p className="font-body text-subtle text-sm leading-relaxed">
                 I&apos;m a fullstack developer with 5+ years building web
                 products, mostly in the freelance world. That means I&apos;ve
-                had to own entire products — architecture decisions, database
+                had to own entire products architecture decisions, database
                 design, API structure, and frontend without a team to fall back
                 on.
               </p>
               <p className="font-body text-subtle text-sm leading-relaxed">
-                Over time I&apos;ve gravitated toward SaaS products —
-                specifically the kind with multiple user roles, subscription
-                tiers, and infrastructure that needs to be solid from day one.
-                OtoNav and Tenon came out of that focus.
+                Over time I&apos;ve gravitated toward SaaS products specifically
+                the kind with multiple user roles, subscription tiers, and
+                infrastructure that needs to be solid from day one. OtoNav and
+                Tenon came out of that focus.
               </p>
 
               {/* Typewriter line */}

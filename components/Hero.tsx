@@ -254,7 +254,7 @@ export default function Hero() {
           33%      { clip-path: inset(10% 0 70% 0); transform: translate(-2px,0); }
           66%      { clip-path: inset(50% 0 30% 0); transform: translate(1px,0); }
         }
-        .name-wrap { position: relative; display: inline-block; }
+        .name-wrap { position: relative; display: inline-block; overflow: hidden; }
         .name-wrap:hover .glitch-a {
           animation: glitch1 0.4s steps(1) 1;
         }
@@ -265,6 +265,9 @@ export default function Hero() {
           position: absolute; inset: 0;
           color: inherit;
           pointer-events: none;
+          clip-path: inset(0 0 100% 0);
+          user-select: none;
+          aria-hidden: true;
         }
         .glitch-a { color: #6ee7f7; mix-blend-mode: screen; }
         .glitch-b { color: #f76ef7; mix-blend-mode: screen; }
@@ -323,7 +326,7 @@ export default function Hero() {
         {/* Positioning + CTA */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
           <p className="reveal opacity-0 font-body text-subtle text-sm leading-relaxed max-w-md">
-            I build SaaS products end-to-end multi-role systems, subscription
+            I build SaaS products end-to-end — multi-role systems, subscription
             infrastructure, and real-time features. Next.js, Node/Express,
             Postgres, MongoDB.
           </p>
