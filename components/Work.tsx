@@ -25,13 +25,13 @@ const projects = [
     name: "Tenon",
     tagline: "Feature entitlement API for SaaS",
     description:
-      "Stripe handles the money. Tenon handles what each customer is allowed to do. Integrate once and get usage tracking, rate limiting, and feature gating out of the box — no building that layer yourself. Built for SaaS products that need plan-based access control without the complexity.",
-    stack: ["Next.js", "Node/Express", "PostgreSQL", "Stripe"],
+      "Your payment platform handles the money. Tenon handles what each customer is allowed to do. Integrate once and get usage tracking, rate limiting, and feature gating out of the box — works with whatever payment provider you already use. Built for SaaS products that need plan-based access control without the complexity.",
+    stack: ["Next.js", "Node/Express", "PostgreSQL"],
     tags: ["Developer tooling", "Billing infrastructure", "API"],
     highlights: [
       "Plan-based feature gating via API routes",
       "Usage tracking and rate limiting built-in",
-      "Works alongside Stripe — no replacement",
+      "Payment-platform agnostic — use any provider",
       "Customer and admin dashboards included",
     ],
     link: "https://tenon-org.vercel.app",
