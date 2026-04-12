@@ -326,7 +326,7 @@ export default function Hero() {
         {/* Positioning + CTA */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
           <p className="reveal opacity-0 font-body text-subtle text-sm leading-relaxed max-w-md">
-            I build SaaS products end-to-end — multi-role systems, subscription
+            I build web products end-to-end — multi-role systems, subscription
             infrastructure, and real-time features. Next.js, Node/Express,
             Postgres, MongoDB.
           </p>

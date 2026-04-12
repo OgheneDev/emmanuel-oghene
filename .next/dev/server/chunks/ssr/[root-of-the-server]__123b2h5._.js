@@ -103,12 +103,12 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$i
 ;
 ;
 const metadata = {
-    title: 'Emmanuel Oghene — Fullstack Developer',
-    description: 'Fullstack developer specialising in SaaS products — multi-role systems, subscription infrastructure, and real-time features. Next.js, Node, Postgres.',
+    title: "Emmanuel Oghene — Fullstack Developer",
+    description: "Fullstack developer specialising in web products — multi-role systems, subscription infrastructure, and real-time features. Next.js, Node, Postgres.",
     openGraph: {
-        title: 'Emmanuel Oghene — Fullstack Developer',
-        description: 'Building SaaS products that ship.',
-        type: 'website'
+        title: "Emmanuel Oghene — Fullstack Developer",
+        description: "Building web products that ship.",
+        type: "website"
     }
 };
 function RootLayout({ children }) {
@@ -120,7 +120,7 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 41,
+            lineNumber: 44,
             columnNumber: 7
         }, this)
     }, void 0, false, {

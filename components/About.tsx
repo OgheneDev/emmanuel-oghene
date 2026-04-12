@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const capabilities = [
   {
-    title: "Multi-role SaaS architecture",
+    title: "Multi-role web architecture",
     desc: "Org-level isolation, RBAC systems, plan-based feature access across complex user hierarchies.",
   },
   {
@@ -308,10 +308,9 @@ export default function About() {
                 on.
               </p>
               <p className="font-body text-subtle text-sm leading-relaxed">
-                Over time I&apos;ve gravitated toward SaaS products specifically
-                the kind with multiple user roles, subscription tiers, and
-                infrastructure that needs to be solid from day one. OtoNav and
-                Tenon came out of that focus.
+                Over time I&apos;ve gravitated toward complex web products
+                specifically the kind with multiple user roles, subscription
+                tiers, and infrastructure that needs to be solid from day one.
               </p>
 
               {/* Typewriter line */}

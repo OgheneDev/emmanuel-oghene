@@ -9,8 +9,13 @@ const links = [
     href: "mailto:emmanueloghene72@gmail.com",
   },
   {
+    label: "WhatsApp",
+    value: "wa.me/08071920976",
+    href: "https://wa.me/0807192976",
+  },
+  {
     label: "LinkedIn",
-    value: "linkedin.com/in/emmanuel-oghene",
+    value: "linkedin.com/in/emmanuel",
     href: "https://www.linkedin.com/in/emmanuel-oghene-0242182ab",
   },
   {
@@ -294,7 +299,7 @@ export default function Contact() {
 
             <p className="font-body text-subtle text-sm leading-relaxed max-w-xs">
               I&apos;m open to remote contracts and full-time roles,
-              particularly with agencies and startups building SaaS products. If
+              particularly with agencies and startups building web products. If
               you have a project that fits, reach out.
             </p>
 
