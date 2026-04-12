@@ -10,8 +10,8 @@ const links = [
   },
   {
     label: "WhatsApp",
-    value: "wa.me/08071920976",
-    href: "https://wa.me/0807192976",
+    value: "wa.me/2348071920976",
+    href: "https://wa.me/2348071920976",
   },
   {
     label: "LinkedIn",
@@ -304,13 +304,13 @@ export default function Contact() {
             </p>
 
             {/* Copy email shortcut */}
-            <button
+            {/*<button
               onClick={copyEmail}
               className="mt-8 flex items-center gap-2 font-mono text-[10px] text-dim tracking-widest uppercase hover:text-primary transition-colors duration-200 group"
             >
               <span className="inline-block w-3 h-3 border border-current opacity-50 group-hover:opacity-100 transition-opacity" />
               {copied ? "Copied!" : "Copy email"}
-            </button>
+            </button>*/}
           </div>
 
           {/* ── Right: Links ── */}
